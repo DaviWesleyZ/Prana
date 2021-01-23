@@ -1,5 +1,5 @@
 function Home () {
-    return <h1> Prana </h1>
+    return <h1> Área de testes </h1>
 }
 
 export default Home;
