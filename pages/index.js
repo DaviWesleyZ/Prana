@@ -1,22 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Head from 'next/head';
-
+import Link from 'next/link';
 
 const Home = () => {
-    const teste="davi";
+    const navBar="menu";
     return ( 
         <Head>
             <title> Prana </title>
         </Head>,
-        
-        <div className={teste}>
-            <h1 > Prana </h1>
 
-            <h1> </h1>
+        <div className={navBar}>
+            <Link href="/">
+                <a className="nav-link">Home</a>
+            </Link>     
+            <Link href="/edicoes">
+                <a className="nav-link" style={{marginLeft: 50 + 'px'}}>Edições</a>
+            </Link>   
         </div>
-        
-        
+          
     )
 }
 

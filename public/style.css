@@ -6,3 +6,12 @@ body {
     font-weight: 300;
     font-size: 24px;
 }
+
+.menu {
+    background-color: rgb(124, 155, 240);
+    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 24px;
+}
