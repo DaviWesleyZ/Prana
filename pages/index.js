@@ -15,7 +15,7 @@ const Home = () => {
                 <a className="nav-link">Home</a>
             </Link>     
             <Link href="/edicoes">
-                <a className="nav-link" style={{marginLeft: 50 + 'px'}}>Ediçoes</a>
+                <a className="nav-link" style={{marginLeft: 50 + 'px'}}>Edições</a>
             </Link>   
         </div>
           
