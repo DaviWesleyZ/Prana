@@ -1,15 +1,9 @@
-import App from 'next/app';
-import React from 'react';
-import Navbar from '../components/Navbar';
-import 'font-awesome/css/font-awesome.min.css'
-import 'react-fab/dist/main.scss';
-import '../styles/style.css'
+import '../styles/style.css';
 
-function _app() {
+function _app({Component, pageProps}) {
     return (
-        <>
-            <Navbar />
-        </>
+        
+        <Component {...pageProps} />
 
     );
 }
